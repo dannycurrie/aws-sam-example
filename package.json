@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "scripts": {
+    "start-api": "sam build && sam local start-api --env-vars env.json"
+  }
+}
